@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
 }
 
 body{
@@ -14,7 +16,6 @@ body{
     width: 1201px;
     margin: 0 auto;
 }
-
 
 /*header-top starts*/
 
@@ -65,5 +66,79 @@ body{
     color: #222;
     font-weight: 600;
 }
-
 /*header-top ends*/
+
+
+
+
+/*header-logo starts*/
+.header-logo .wrapper{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo .logo{
+    display: flex;
+    gap: 16px;
+}
+
+.header-logo .right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-logo .right .search{
+    width: 507px;
+    height: 48px;
+    border-radius: 10px;
+    background: #F3F9FB;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+}
+
+.header-logo .right .search img{
+    cursor: pointer;
+}
+
+.header-logo .right .search input{
+    width: 85%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.header-logo .right .search input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #666666;
+}
+
+
+.header-logo .right .form div,
+.header-logo .right .form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo .right .form div{
+    gap: 6px;
+}
+.header-logo .right .form div:first-child{
+    padding-right: 20px;
+    border-right: 1px solid #D9D9D9;
+}
+
+
+/*header-logo ends*/
+
