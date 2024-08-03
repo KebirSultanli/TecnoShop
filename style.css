@@ -208,3 +208,105 @@ body{
 }
 /* header-bottom top section ends */
 
+
+
+/* header-bottom top section starts */
+.header-bottom .bottom{
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.header-bottom .bottom .bottom-item {
+    width: 1287px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header-bottom .bottom .swiper{
+    width: 1201px;
+    border-radius: 16px;
+    position: relative;
+}
+
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide{
+    width: 1201px;
+    height: 316px;
+    margin: 0 auto;
+    background: #212844;
+    border-radius: 16px;
+    position: relative;
+    user-select: none;
+}
+
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide .left{
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide .left h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide .left h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #FFFFFF;
+}
+
+
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.header-bottom .bottom .swiper .swiper-wrapper .swiper-slide img:last-child{
+    top: 24px;
+    right: 125px;
+}
+
+.header-bottom .bottom .bottom-item .btn {
+    width: 86px;
+    height: 86px;
+    background: #f3f9fb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-bottom .bottom .bottom-item .swiper-btn-next{
+    background-image: url(img/header-bottom/ArrowRight.png);
+    top: 116px;
+    right: 0;
+}
+.header-bottom .bottom .bottom-item .swiper-btn-prev{
+    background-image: url(img/header-bottom/ArrowLeft.png);
+    top: 116px;
+    left: 0;
+}
+
+
+.header-bottom .bottom .bottom-item .swiper .swiper-pagination {
+    position: absolute;
+    top: 269px;
+    left: -450px;
+    color: #FFFFFF;
+}
+.header-bottom .bottom .bottom-item .swiper .swiper-pagination-bullet-active{
+    background: #FFFFFF;
+    width: 24px;
+    border-radius: 7px;
+}
+/* header-bottom top section ends */
+
