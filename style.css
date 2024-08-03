@@ -6,6 +6,7 @@
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
+    list-style: none;
 }
 
 body{
@@ -134,11 +135,76 @@ body{
 .header-logo .right .form div{
     gap: 6px;
 }
+
 .header-logo .right .form div:first-child{
     padding-right: 20px;
     border-right: 1px solid #D9D9D9;
 }
 
+.header-logo .right .form div a{
+    color: #666666;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
 
 /*header-logo ends*/
+
+
+
+
+
+/* header-bottom top section starts */
+
+.header-bottom .top{
+    border-top: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.header-bottom .top ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom .top ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 14px;
+    border-radius: 18px;
+    background: #F3F9FB;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.header-bottom .top ul li:hover{
+    background: #008ECC;
+}
+.header-bottom .top ul li:hover a{
+    color: #FFFFFF;
+}
+.header-bottom .top ul li:hover div.img{
+    background-image: url(img/header-bottom/ArrowDown2.png);
+}
+
+.header-bottom .top ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #222222;
+    margin-right: 6px;
+}
+
+.header-bottom .top ul li div.img{
+    width: 18px;
+    height: 18px;
+    background-image: url(img/header-bottom/ArrowDown1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* header-bottom top section ends */
 
