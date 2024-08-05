@@ -9,3 +9,11 @@ var swiper = new Swiper(".mySwiper", {
   });
 
 
+
+//   smartphones swiper starts
+var swiper = new Swiper(".smart-swiper", {
+   scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+//   smartphones swiper ends

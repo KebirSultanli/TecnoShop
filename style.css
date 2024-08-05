@@ -310,3 +310,174 @@ body{
 }
 /* header-bottom top section ends */
 
+
+
+
+
+/* smart section starts */
+.section .smart{
+    margin-bottom: 120px;
+}
+
+.section .smart .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section .smart .top h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #666666;
+}
+
+.section .smart .top h3 span{
+    color: #008ECC;
+}
+
+.section .smart .top p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 18px;
+    cursor: pointer;
+    transition: all .3 linear;
+}
+
+.section .smart .top p:hover{
+    letter-spacing: 1px;
+}
+
+.section .smart .smart-swiper{
+    position: relative;
+    margin-top: 16px;
+    height: 337px;
+}
+
+.section .smart .smart-item,
+.section .smart .smart-item .smart-slide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section .smart .smart-item .smart-slide{
+    margin-top: 40px;
+}
+
+.section .smart .smart-item .smart-slide{
+    gap: 16px;
+    width: 1201px;
+    height: 295px;
+}
+
+.section .smart .smart-item .smart-slide .box{
+    width: 227px;
+    height: 295px;
+    border-radius: 16px;
+    border: 1px solid #ededed;
+    overflow: hidden;
+    user-select: none;
+    cursor: pointer;
+    transition: all .3 ease;
+}
+
+.section .smart .smart-item .smart-slide .box:hover{
+    border: 1px solid #008ECC;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section .smart .smart-item .smart-slide .box .box-top{
+    background: #F5F5F5;
+    height: 189px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative ;
+}
+
+.section .smart .smart-item .smart-slide .box .box-top p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 51px;
+    height: 53px;
+    background-color: #008ECC;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom{
+    height: 106px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: #FFFFFF;
+    padding: 12px 12px 10px 12px;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #222222;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom p span{
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+    text-decoration: line-through;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom p .new-price{
+    font-weight: 700;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom{
+    height: 1px;
+    width: 100%;
+    border: none;
+    background: #ededed;
+}
+
+.section .smart .smart-item .smart-slide .box .box-bottom .green-price{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #249b3e;
+    margin-top: 10px;
+}
+
+.section .smart .swiper-scrollbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #ededed;
+}
+.swiper-scrollbar-drag{
+    background: #008ECC;
+    height: 3px;
+    border-radius: 50px;
+}
+/* smart section ends */
